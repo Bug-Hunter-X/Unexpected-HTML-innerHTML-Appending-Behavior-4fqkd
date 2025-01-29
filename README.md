@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug related to the use of innerHTML in JavaScript within an HTML context.  The bug showcases how incorrectly appending to innerHTML can change the expected order of content within a div. The solution shows how to correctly append to innerHTML to avoid this behavior.
