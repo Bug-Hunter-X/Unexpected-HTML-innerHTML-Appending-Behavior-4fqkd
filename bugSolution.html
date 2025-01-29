@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+
+  <script>
+    //Correct way to use innerHTML to append text.
+    let divContent = document.getElementById("myDiv").innerHTML;
+    document.getElementById("myDiv").innerHTML = divContent + "<p>This is a paragraph.</p>";
+  </script>
+</body>
+</html>
